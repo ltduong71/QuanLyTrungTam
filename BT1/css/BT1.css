@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0;}
+
+/* css for Menu section */
+.navbar {
+	border-bottom: 1px solid gray;
+}
+ 
+/* css for Carousel section */
+#carousel {
+	position: relative;
+	height: 700px;
+	width: 98%;
+}
+
+#carousel .building {
+	position: absolute;
+	z-index: 1;
+}
+
+#carousel .BR_brand{
+	position: absolute;
+	top: 365px;
+	left: 460px;
+	z-index: 2;
+	color: white;
+	width: 270px;
+	height: -11px;
+	font-size: 40px;
+}
+
+#carousel .BR_brand .BR {
+	/* padding:  10px; */
+	background: black;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* css for Project section */
+.projects {
+	height: 500px;
+}
+
+.project .spham {
+	height: 500px;
+}
+
+.title {
+	padding-left: 12px;
+}
+
+.product {
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+
+.product img {
+	position: absolute;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.product__title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: black;
+	color: white;
+	width: 50%;
+}
+
+.line {
+	width: 1230px;
+	border-top: 0.5px solid gray;
+	padding-top: 20px;
+	padding-left: -35px;
+	margin-left: 15px;
+}
+/* css for About section */
+
+/* css for Contract section */
+.Contract {
+	height: 400px;
+}
+
+.ndung {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.ndung h5 {
+	font-size: 15px;
+	color: gray;
+	font-weight:  bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ndung .btn-block {
+	font-weight: bold;
+}
+
+.Contract .nhaplieu {
+	margin-left: 10px;
+}
+
+.nhaplieu .txtInput {
+	border: none;
+	border-bottom: 1px dashed gray;
+	border-radius: 0px;
+}
+
+.Contract .sendmsg {
+	margin-top: 10px;
+	background: black;
+	color: white;
+	width: 200px;
+	border-radius:0px;
+	font-weight: bold;
+}
